@@ -1,4 +1,4 @@
-
+<
 # File-example
 这次发布主要针对大一同学对于C语言文件操作不够熟悉，并且还有期末项目<br/>
 这是我大一下学期c艹的项目，音像店管理<br/>
@@ -12,7 +12,7 @@
 <br/><br/><strong></strong>
 <h2>实现步骤</h2><br/>
 首先创建一个“output.txt”的文件夹来管理和输出音像店的各种数据，之后分别用文件操作来实现插入（insert），查询（select），删除（delete），更新（update）：借出（Leon），还入（return）操作。<br/>
-其中，
+其中，<br/>
 <strong>插入操作</strong> ：是每次以追加“a”的方式打开文件并在文件末尾插入输入流中的数据；<br/>
 <strong>查询操作</strong> ：是用strtok函数分割字符串得到查询的关键字后用strcmp函数进行对比得到数据，输出到屏幕；<br/>
 <strong>删除操作</strong> ：是先查询到关键字所在的数据行之后重新打开一个“mid.txt”文件将“output.txt”文件中除了查询到的数据行以外的数据依次打印到“mid.txt”文件中，再将mid文件重新命名为output。<br/>
